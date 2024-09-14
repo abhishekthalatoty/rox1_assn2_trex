@@ -61,8 +61,8 @@ class TREXPublisher(Node):
             self.br_count+=1 
 
         self.fl_publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%i"' % msg.data)
-        self.get_logger().info('Run Count: "%i"' % self.run_count)
+        # self.get_logger().info('Publishing: "%i"' % msg.data)
+        # self.get_logger().info('Run Count: "%i"' % self.run_count)
         self.run_count+=1
 
 
